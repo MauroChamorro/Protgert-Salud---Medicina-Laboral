@@ -10,14 +10,15 @@ a{
 }
 
 h1{color: darkslateblue; 
-    font-weight: 500; 
-    text-align: right; 
+    font-weight: 700; 
+    text-align: left; 
     font-style: italic; 
 
 }
 h2 {color:red; display: flex;
     font-weight: 800; 
     text-align: center; 
+    justify-content: center;
     padding: 25px; 
     background-color:rgba(71, 61, 139, 0.151); 
     text-justify:auto ;
@@ -37,9 +38,12 @@ h4{ color: blueviolet;
     font-size: 1rem; 
 }
 
-
+header{
+    display: grid;
+    grid-template-rows: 5fr
+}
 .encabezado{
-    width: 50%;
+    width: 30px;
     padding: 40px;
     display: flex ;
     justify-content: space-between;
@@ -48,10 +52,12 @@ h4{ color: blueviolet;
 }
 
 .encabezado_img{
-    width: 40vw;
+    width: 50vw
 }
 .encabezado_img_2{
-    width: 40vw;
+    width: 43vw;
+    
+    ;
 }
 .caja{
     width: 200px;
@@ -95,7 +101,7 @@ h4{ color: blueviolet;
 .tarjeta_boton{
     align-items: center;
     background-color: darkblue;
-    color: antiquewhite;
+    color: white;
     border: 1px solid black;
     border-radius: 20px 20px;
     padding: 8px 8px;
@@ -107,7 +113,7 @@ h4{ color: blueviolet;
 .tarjeta_boton:hover{
     border:blue solid 2px;
     background-color: whitesmoke;
-    color: blue;
+    /* color: blue; */
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -186,12 +192,16 @@ p {color: rgb(72, 12, 238);
 
 
 nav li {    
-    color:darkblue;}
+    color:darkblue;
+    text-align: center;
+
+}
 nav a{    
     color:darkblue;}
 nav {color:darkmagenta ;
     display: flex;
     flex-direction: row-reverse;
+    
 }
 
 
